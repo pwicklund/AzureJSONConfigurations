@@ -1,0 +1,15 @@
+{
+  "name": "OutputPreserveHierarchy",
+  "properties": {
+    "published": false,
+    "type": "AzureDataLakeStore",
+    "linkedServiceName": "AzureDataLakeStoreLinkedService",
+    "typeProperties": {
+      "folderPath": "//Customer"
+    },
+    "availability": {
+      "frequency": "Hour",
+      "interval": 1
+    }
+  }
+}
